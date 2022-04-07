@@ -1,7 +1,17 @@
 // *Variables*
-// Declare a variable and assign it to a sentance that is a positive affirmation. Print the affirmation to the console multiple times using a method
-
+// Declare a variable and assign it to a sentance that is a positive affirmation. Print the affirmation to the 
+// console multiple times using a method
+let pos = "you can do it!"
+function repeat(pos){
+    let n = 1
+    while(n < 5){
+        n++;
+    }
+    console.log(pos)
+}
+repeat()
 //Declare a variable, assign it an array of letters, combine the letters into one word, and alert it 
+
 
 // *Functions*
 // Create a function that returns rock, paper, lizard, spock or scissors as randomly as possible
